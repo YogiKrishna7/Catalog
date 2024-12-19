@@ -8,6 +8,15 @@ const LogoComponent = function () {
     return <a href="#"><img src="https://img.freepik.com/premium-vector/phone-logo-smartphone-icon_701361-965.jpg" alt="Logo" className="logo" /></a>
 };
 
+const MainTitle = function(){
+    return(
+        <div className="main-title">
+            <h2 id="title1">Surf</h2>
+            <h2 id="title2">Mobiles</h2>
+        </div>
+    );
+}
+
 const MenuComponent = function () {
     return (
         <nav>
@@ -24,6 +33,7 @@ const HeaderComponent = function () {
     return (
         <header className="header">
             <LogoComponent />
+            <MainTitle/>
             <MenuComponent />
         </header>
     );
