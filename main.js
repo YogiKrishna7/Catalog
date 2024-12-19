@@ -88,7 +88,7 @@ const BodyComponent = function () {
 const FooterComponent = function () {
     return (
         <div id="main-footer">
-            <p>MySite, Copyright &copy; 2024</p>
+            <p>SurfMobiles, Copyright &copy; 2024</p>
         </div>)
 }
 
