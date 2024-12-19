@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: orangered;
+}
+
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+
+.phone-card {
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.phone-card:hover {
+    transform: scale(1.05);
+    background-color: orangered;
+}
+
+
+.phone-img {
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+
+.phone-data {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+#main-footer {
+    background-color: orangered;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
